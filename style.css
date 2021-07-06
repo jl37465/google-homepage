@@ -11,6 +11,12 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+.bottom-navbar-ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
 .button {
     display: inline;
     padding: 9px 17px;
@@ -25,6 +31,35 @@ body {
 .button:hover {
     cursor:pointer;
     border:solid 1px rgb(212, 212, 212);
+}
+
+.bottom-navbar-container {
+    position: fixed;
+    bottom: 0;
+    margin: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+.center-bottom-navbar {
+    position: relative;
+    left: 28%
+}
+
+.country-footer {
+    display: flex;
+    width: 100%;
+    border-bottom: solid 1px rgb(201, 201, 201);
+}
+
+.right-bottom-navbar {
+    float: right;
+}
+
+.top-footer-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 .left-top-navbar {
@@ -48,6 +83,10 @@ body {
     flex-direction: row;
     justify-content: center;
     flex-wrap: nowrap;
+}
+
+.navbar {
+    display: inline;
 }
 
 .navbar-container {
