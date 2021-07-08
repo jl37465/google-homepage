@@ -9,12 +9,24 @@ a:hover {
 
 body {
     font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    overflow-x: hidden;
+}
+
+.apps-icon {
+    padding-right: 80%;
 }
 
 .bottom-navbar-ul {
     list-style-type: none;
-    padding: 0;
+    position: fixed;
+    left: 0;
+    bottom: 0%;
+    width: 100%;
+    height: 5%;
     margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
 }
 
 .button {
@@ -48,8 +60,10 @@ body {
 
 .country-footer {
     display: flex;
+    margin: 0;
+    padding: 0;
     width: 100%;
-    border-bottom: solid 1px rgb(201, 201, 201);
+    background-color: #f2f2f2;
 }
 
 .right-bottom-navbar {
@@ -57,15 +71,71 @@ body {
 }
 
 .top-footer-ul {
+    position: fixed;
+    left: 0;
+    bottom: 5%;
+    width: 100%;
+    height: 5%;
     list-style-type: none;
     margin: 0;
     padding: 0;
+    background-color: #f2f2f2;
+    border-bottom: solid 1px rgb(201, 201, 201);
+    box-sizing: border-box;
+}
+
+.left-bottom-navbar.zero{
+    position: fixed;
+    bottom: 6.5%;
+    left: 1.6%;
 }
 
 .left-top-navbar {
     display: inline;
     float: left;
     padding: 1.5% 0.5% 0 1.5%;
+}
+
+li.center-bottom-navbar.navbar.four {
+    position: fixed;
+    bottom: 1.5%;
+    left: 46%
+}
+
+li.left-bottom-navbar.navbar.one {
+    position: fixed;
+    bottom: 1.5%;
+    left: 2.2%
+}
+
+li.left-bottom-navbar.navbar.two {
+    position: fixed;
+    bottom: 1.5%;
+    left: 7.5%
+}
+
+li.left-bottom-navbar.navbar.three {
+    position: fixed;
+    bottom: 1.5%;
+    left: 12%
+}
+
+li.right-bottom-navbar.navbar.five {
+    position: fixed;
+    bottom: 1.5%;
+    right: 2.2%
+}
+
+li.right-bottom-navbar.navbar.six {
+    position: fixed;
+    bottom: 1.5%;
+    right: 6.5%
+}
+
+li.right-bottom-navbar.navbar.seven {
+    position: fixed;
+    bottom: 1.5%;
+    right: 10.3%
 }
 
 .main-container {
@@ -87,13 +157,16 @@ body {
 
 .navbar {
     display: inline;
-}
+    }
 
 .navbar-container {
     display: flex;
 }
 
 .profile-icon {
+    position: fixed;
+    top: 2.5%;
+    right: 1.5%;
     border-radius: 50%;
 }
 
@@ -151,4 +224,11 @@ body {
 
 .decorative {
     pointer-events: none;
+}
+
+#carbon-image {
+    width: 0.7%;
+    position: fixed;
+    bottom: 1.6%;
+    left: 45%;
 }
